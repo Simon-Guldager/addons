@@ -1,0 +1,14 @@
+## Interface: 11200
+## Title: |cff00BFFFone|rMultiboxing
+## Notes: Multiboxing enhanced.
+## Author: Erobreren and Mujo
+## Version: 0.1
+## SavedVariables: GSaved
+oneMultiboxing.xml
+
+oneFunctions.lua
+oneMultiboxing.lua
+one_Warlock.lua
+one_Mage.lua
+
+

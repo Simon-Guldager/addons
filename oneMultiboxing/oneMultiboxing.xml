@@ -1,0 +1,36 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+	
+	<Script file="oneMage.lua"/>
+	<Script file="oneWarlock.lua"/>
+	<Script file="oneFunctions.lua"/>
+	<Script file="oneMultiboxing.lua"/>
+	
+	<Frame name="one_Multiboxing_Frame" hidden="true">
+		<Scripts>
+			<OnLoad>
+				one_OnLoad()
+			</OnLoad>
+			<OnUpdate>			
+			</OnUpdate>
+			<OnEvent>
+				one_OnEvent(event)
+			</OnEvent>
+		</Scripts>
+	</Frame>
+	<GameTooltip name="one_Tooltip" hidden="true" inherits="GameTooltipTemplate">
+		<Scripts>
+			<OnLoad>
+				this:SetOwner(this, "ANCHOR_NONE")
+			</OnLoad>
+		</Scripts>
+	</GameTooltip>
+	<GameTooltip name="one_Button_Tooltip" hidden="true" inherits="GameTooltipTemplate">
+		<Scripts>
+			<OnLoad>
+				this:SetOwner(this, "ANCHOR_NONE")
+			</OnLoad>
+		</Scripts>
+	</GameTooltip>
+</Ui>

@@ -1,0 +1,5 @@
+<Bindings>
+	<Binding name="ONE_DPS"  header="ONEBOXING_HEADER">
+		Logout()
+	</Binding>
+</Bindings>
